@@ -392,11 +392,11 @@ with tab3:
     st.markdown(body="""<h2 style="text-align:center">Meet Our Team</h2>""", unsafe_allow_html=True)
     # Sample data for cards
     cards = [
-        {"title": "Card 1", "description": "Computer Science Student"},
-        {"title": "Card 2", "description": "Computer Science Student"},
-        {"title": "Card 3", "description": "Computer Science Student"},
-        {"title": "Card 4", "description": "Computer Science Student"},
-        {"title": "Card 5", "description": "Computer Science Student"},
+        {"title": "Syeda Ayesha", "description": "Computer Science Student"},
+        {"title": "Sabahat", "description": "Computer Science Student"},
+        {"title": "Hasnain Ahmed", "description": "Computer Science Student"},
+        {"title": "Anas Iqbal", "description": "Computer Science Student"},
+        {"title": "Usama Arshad", "description": "Computer Science Student"},
     ]
 
 # Display cards in rows of 3
