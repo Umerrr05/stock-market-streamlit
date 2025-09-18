@@ -18,7 +18,7 @@ info_multi = ''' Stock Market Prediction is your go-to platform for exploring AI
 Whether you're a data science enthusiast or a market observer, this app blends cutting-edge deep learning with intuitive tools to bring you actionable insights.'''
 
 with tab1: 
-    st.header('SM Web Application')
+    st.header('Stock Market Prediction Web Application')
     st.info(info_multi)
     st.write(' ')
 
