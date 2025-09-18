@@ -12,13 +12,13 @@ from keras.models import load_model
 from keras.layers import LSTM
 
 # Page Layout
-st.set_page_config(page_title ="IRMTP",  page_icon = "./logo-removebg-preview-Edited.png", layout = "wide")
+st.set_page_config(page_title ="Stock Market Prediction",   layout = "wide")
 tab1, tab2 ,tab3 = st.tabs(["Prediction", "Insights", "About Us"])
-info_multi = ''' IRMTP is your go-to platform for exploring AI-powered stock forecasting and analysis using real-time stock values via Yahoo Finance.      
+info_multi = ''' Stock Market Prediction is your go-to platform for exploring AI-powered stock forecasting and analysis using real-time stock values via Yahoo Finance.      
 Whether you're a data science enthusiast or a market observer, this app blends cutting-edge deep learning with intuitive tools to bring you actionable insights.'''
 
 with tab1: 
-    st.header('IRMTP Web Application')
+    st.header('SM Web Application')
     st.info(info_multi)
     st.write(' ')
 
@@ -392,11 +392,7 @@ with tab3:
     st.markdown(body="""<h2 style="text-align:center">Meet Our Team</h2>""", unsafe_allow_html=True)
     # Sample data for cards
     cards = [
-        {"title": "Syeda Ayesha", "description": "Computer Science Student"},
-        {"title": "Sabahat", "description": "Computer Science Student"},
-        {"title": "Hasnain Ahmed", "description": "Computer Science Student"},
-        {"title": "Anas Iqbal", "description": "Computer Science Student"},
-        {"title": "Usama Arshad", "description": "Computer Science Student"},
+        {"title": "M. Umar", "description": "Red Star Solution"},
     ]
 
 # Display cards in rows of 3
