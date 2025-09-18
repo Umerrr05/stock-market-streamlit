@@ -385,8 +385,8 @@ with tab2:
 with tab3:
     st.header("About Us" , divider=True)
     
-    st.subheader("A revolutionary AI-powered stock market prediction platform created by passionate university students as their final year project")
-    st.info("IRMTP represents the culmination of months of intensive research, development, and innovation by a dedicated team of computer science students. This project combines cutting-edge artificial intelligence with modern web technologies to democratize financial market analysis and make professional-grade investment tools accessible to everyone.")
+    st.subheader("A revolutionary AI-powered stock market prediction platform created for Stock Market Pediction")
+    st.info("SMP represents the culmination of months of intensive research, development, and innovation by a dedicated team of computer science students. This project combines cutting-edge artificial intelligence with modern web technologies to democratize financial market analysis and make professional-grade investment tools accessible to everyone.")
     st.text(" ")
     st.text(" ")
     st.markdown(body="""<h2 style="text-align:center">Meet Our Team</h2>""", unsafe_allow_html=True)
